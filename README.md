@@ -25,26 +25,28 @@
 <br>
 </div>
 
+# Mathe GFS
 
+## News
 
+- **[2024.10.31]** Start ;-)
 
+## Inhaltsverzeichnis
+- [Versionen](#versionen)
+- [Installation](#installation)
+- [Demo](#demo)
+- [Checkliste](#checkliste)
+- [Lizenz](#lizenz)
 
+---
 
+## Demo
 
-
-
-
-
-
-
-
-
-
-manim -p -r 3840,2160 main1.py ContinuousMotion 
-
-
-
-<p align="center">
+<p align="">
     <img src="./img-readme/mathe-gfs-gif4.gif" width="480"/>
     <img src="./img-readme/mathe-gfs-gif5.gif" width="480"/>
 </p>
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE](LICENSE) Datei für Details.
