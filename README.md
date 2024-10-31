@@ -2,7 +2,7 @@
     <img src="./img-readme/mathe-gfs-gif3.gif" width="480"/>
 </p>
 <div align="center">
-<img alt="Mathe-GFS" src="https://img.shields.io/badge/Mathe-GFS-F7DF1E">
+<img alt="mathe-GFS" src="https://img.shields.io/badge/Mathe-GFS-F7DF1E">
 <img alt="tg-loerrach" src="https://img.shields.io/badge/TG Lörrach-red">
 <br>
 <br>
@@ -11,7 +11,7 @@
 <br>
 <br>
 
-<img alt="Manim" src="https://img.shields.io/badge/TG Lörrach-red">
+<img alt="manim" src="https://img.shields.io/badge/Manim-red">
 <img alt="" src="https://img.shields.io/badge/PyCharm-black?logo=PyCharm&logoColor=white">
 <img alt="" src="https://img.shields.io/badge/GitHub-black?logo=github">
 <br>
