@@ -41,3 +41,10 @@
 
 
 manim -p -r 3840,2160 main1.py ContinuousMotion 
+
+
+
+<p align="center">
+    <img src="./img-readme/mathe-gfs-gif4.gif" width="480"/>
+    <img src="./img-readme/mathe-gfs-gif5.gif" width="480"/>
+</p>
