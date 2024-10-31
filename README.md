@@ -32,7 +32,6 @@
 - **[2024.10.31]** Start ;-)
 
 ## Inhaltsverzeichnis
-- [Versionen](#versionen)
 - [Installation](#installation)
 - [Demo](#demo)
 - [Checkliste](#checkliste)
@@ -42,10 +41,31 @@
 
 ## Demo
 
-<p align="">
+<p align="center">
     <img src="./img-readme/mathe-gfs-gif4.gif" width="480"/>
     <img src="./img-readme/mathe-gfs-gif5.gif" width="480"/>
 </p>
+
+## Installation
+
+### Instalation:
+
+### 1. Klone das Repository:
+```bash
+git https://github.com/Peharge/Woyzy
+   ```
+### 2. Navigiere in das Projektverzeichnis:
+```bash
+cd Woyzy
+```
+### 3. Installation von Manim :
+```bash
+pip install manim
+```
+### 4. Test:
+```bash
+manim -p -r 3840,2160 main1.py ContinuousMotion
+```
 
 ## Lizenz
 
