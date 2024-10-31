@@ -44,13 +44,12 @@ Alles zur Mathe GFS
 ## Demo
 
 <p align="center">
+    <img src="./img-readme/mathe-gfs-gif6.gif" width="480"/>
     <img src="./img-readme/mathe-gfs-gif5.gif" width="480"/>
     <img src="./img-readme/mathe-gfs-gif4.gif" width="480"/>
 </p>
 
 ## Installation
-
-### Instalation:
 
 ### 1. Klone das Repository:
 ```bash
