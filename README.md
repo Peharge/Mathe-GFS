@@ -27,6 +27,8 @@
 
 # Mathe GFS
 
+Alles zur Mathe GFS
+
 ## News
 
 - **[2024.10.31]** Start ;-)
