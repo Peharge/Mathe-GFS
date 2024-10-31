@@ -34,8 +34,8 @@ Alles zur Mathe GFS
 - **[2024.10.31]** Start ;-)
 
 ## Inhaltsverzeichnis
-- [Installation](#installation)
 - [Demo](#demo)
+- [Installation](#installation)
 - [Checkliste](#checkliste)
 - [Lizenz](#lizenz)
 
