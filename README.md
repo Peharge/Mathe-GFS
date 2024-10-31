@@ -2,8 +2,8 @@
     <img src="./img-readme/mathe-gfs-gif3.gif" width="480"/>
 </p>
 <div align="center">
-<img alt="Mathe-GFS" src="https://img.shields.io/badge/Woyzy-F7DF1E">
-<img alt="Peharge" src="https://img.shields.io/badge/TG Lörrach-red">
+<img alt="Mathe-GFS" src="https://img.shields.io/badge/Mathe-GFS-F7DF1E">
+<img alt="tg-loerrach" src="https://img.shields.io/badge/TG Lörrach-red">
 <br>
 <br>
 
