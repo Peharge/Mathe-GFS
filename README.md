@@ -37,7 +37,7 @@ Alles zur Mathe GFS
 ## Inhaltsverzeichnis
 - [Demo](#demo)
 - [Installation](#installation)
-- [Checkliste](#checkliste)
+- [Checkliste](#checkliste) Soon
 - [Lizenz](#lizenz)
 
 ---
