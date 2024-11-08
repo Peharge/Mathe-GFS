@@ -32,6 +32,7 @@ Alles zur Mathe GFS
 ## News
 
 - **[2024.10.31]** Start ;-)
+- **[2024.11.08]** [Demo](#demo)
 
 ## Inhaltsverzeichnis
 - [Demo](#demo)
