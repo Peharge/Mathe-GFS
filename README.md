@@ -69,6 +69,19 @@ pip install manim
 manim -p -r 3840,2160 main1.py ContinuousMotion
 ```
 
+## Checkliste
+
+Hier ist die To-Do-Liste für die wichtigsten Tools und Aufgaben im Projekt:
+
+## Aufgaben
+
+| **Task** | **Beschreibung** | **Status** |
+|----------|------------------|------------|
+| Task 1   |                  | ❌          |
+
+
+Nicht erledigt ❌ | Erledigt (min. 1 Monat) ✔️ | Verbesserungen nötig 🔧 | In Bearbeitung 🔄 | Verbesserungen erforderlich ⚠️
+
 ## Lizenz
 
 Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE](LICENSE) Datei für Details.
