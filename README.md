@@ -66,6 +66,9 @@ pip install manim
 ```
 ### 4. Test:
 ```bash
+cd python-main
+```
+```bash
 manim -p -r 3840,2160 main1.py ContinuousMotion
 ```
 
