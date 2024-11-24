@@ -54,11 +54,11 @@ Alles zur Mathe GFS
 
 ### 1. Klone das Repository:
 ```bash
-git https://github.com/Peharge/Woyzy
+git https://github.com/Peharge/Mathe-GFS
    ```
 ### 2. Navigiere in das Projektverzeichnis:
 ```bash
-cd Woyzy
+cd Mathe-GFS
 ```
 ### 3. Installation von Manim :
 ```bash
