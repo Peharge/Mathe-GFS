@@ -4,8 +4,11 @@
 
 - [Einleitung](#einleitung)
 - [Matrizen](#matrizen)
-- []
+- [Addition und skalare Multiplikation](#addition-und-skalare-multiplikation)
 
+---
+
+## Einleitung
 
 ## Matrizen
 
@@ -160,7 +163,9 @@ c) Welche Elemente von A und welche von B haben den Wert 1?
   
 </details>
 
-## **Der KI-Held, der nicht wusste, wie er kämpfen sollte**
+## Addition und skalare Multiplikation
+
+## Der KI-Held, der nicht wusste, wie er kämpfen sollte
 
 Stellen wir uns vor, in einem Spiel müssen wir die KI eines Helden trainieren, der gegen Monster kämpft. Der Held hat drei Attribute:
 
