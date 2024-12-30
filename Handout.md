@@ -136,11 +136,9 @@ $$
      \end{pmatrix}
 $$
 
-a) Bestimmen Sie den Typ von A und B.
-
-b) Geben Sie die Elemente $a_{12}$, $a_{23}$, $b_{21}$ und $b_{32}$ an.
-
-c) Welche Elemente von A und welche von B haben den Wert 1?
+a) Bestimmen Sie den Typ von A und B.<br>
+b) Geben Sie die Elemente $a_{12}$, $a_{23}$, $b_{21}$ und $b_{32}$ an.<br>
+c) Welche Elemente von A und welche von B haben den Wert 1?<br>
 
 <details>
   <summary>Lösung a) anzeigen</summary>
@@ -148,14 +146,12 @@ c) Welche Elemente von A und welche von B haben den Wert 1?
   <br>A ist eine $2 × 3$ Matrix, B eine $3 × 2$ Matrix.
   
 </details>
-
 <details>
   <summary>Lösung b) anzeigen</summary>
   
   <br> $a_{12} = 5$, $a_{23} = 7$, $b_{21} = -3$ und $b_{32} = 4$
   
 </details>
-
 <details>
   <summary>Lösung c) anzeigen</summary>
   
@@ -228,7 +224,55 @@ $$
 - Matrizen werden in vielen Bereichen verwendet, z. B. um Daten zu speichern (wie Tabellen oder Bilder).
 - Mit Addition und skalarer Multiplikation können wir Matrizen einfach verändern, zum Beispiel vergrößern oder Werte zusammenfassen.
 
+### Aufgaben
 
+Gegebn sind die Matritzen
+
+$$
+     A = \begin{pmatrix} 
+     1 & 3 & 5 \\ 
+     2 & 4 & 6 
+     \end{pmatrix}
+$$ 
+
+$$
+     B = \begin{pmatrix} 
+     -1 & 2 & 3 \\ 
+     0 & 1 & 2 
+     \end{pmatrix}
+$$ 
+
+$$
+     C = \begin{pmatrix} 
+     1 & 2 & 3 \\ 
+     4 & 5 & 6 \\
+     7 & 8 & 9 \\
+     \end{pmatrix}
+$$ 
+
+a) Prüfen Sie, welche Matritzen Sie addieren können, und berechnen Sie die Summe.<br>
+b) Bestimmen Sie die Zahl k, für die gilt: 
+
+$$
+     k * C = \begin{pmatrix} 
+     3 & 6 & 9 \\ 
+     12 & 15 & 18 \\
+     21 & 24 & 27 \\
+     \end{pmatrix}
+$$
+
+<details>
+  <summary>Lösung a) anzeigen</summary>
+
+  <br> $k * C =$ | 0  5  8  | | 2  5  8 |<br>
+
+</details>
+<details>
+  <summary>Lösung b) anzeigen</summary>
+  
+  <br>$k = 3$<br>
+  
+</details>
 
 ## Der KI-Held, der nicht wusste, wie er kämpfen sollte
 
@@ -243,21 +287,21 @@ Die KI lernt nun durch eine **Matrizenoperation**, welche Kombination dieser Att
 Die Ausgangsdaten für den Charakter sind in einer **Attributmatrix** wie folgt:
 
 $$
-\begin{bmatrix}
-\text{Angriffskraft} & \text{Geschwindigkeit} & \text{Verteidigung} \\
-8 & 5 & 3 \\
-10 & 4 & 2 \\
-\end{bmatrix}
+     \begin{bmatrix}
+     \text{Angriffskraft} & \text{Geschwindigkeit} & \text{Verteidigung} \\
+     8 & 5 & 3 \\
+     10 & 4 & 2 \\
+     \end{bmatrix}
 $$
 
 Und die **Gewichtungsmatrix** für den Trainingsalgorithmus sieht so aus:
 
 $$
-\begin{bmatrix}
-1.5 & -0.5 & 0.8 \\
--0.2 & 1.2 & 0.5 \\
-1.0 & -1.0 & 1.0 \\
-\end{bmatrix}
+     \begin{bmatrix}
+     1.5 & -0.5 & 0.8 \\
+     -0.2 & 1.2 & 0.5 \\
+     1.0 & -1.0 & 1.0 \\
+     \end{bmatrix}
 $$
 
 Die Gewichtungsmatrix besteht aus „Gewichtungen“ (wie viel jeder Wert zählt), wobei jeder Wert für die Interaktion der **Attribute** eines Charakters mit dem **Spielumfeld** steht. Aber Achtung, der Roboter hat hier irgendwie beim Training etwas durcheinandergebracht!
@@ -301,10 +345,10 @@ $$
 Die resultierende Matrix (die optimalen **Attributswerte**) sieht so aus:
 
 $$
-\begin{bmatrix}
-14 & -1 & 11.9 \\
-16.2 & -2.2 & 12 \\
-\end{bmatrix}
+     \begin{bmatrix}
+     14 & -1 & 11.9 \\
+     16.2 & -2.2 & 12 \\
+     \end{bmatrix}
 $$
 
 ### Interpretation:
