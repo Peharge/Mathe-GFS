@@ -142,7 +142,14 @@ a) Bestimmen Sie den Typ von A und B.
   
 </details>
 
-b) Geben Sie die Elemente $a_{12}$, a_{23}, b_{21} und b_{32} an.
+b) Geben Sie die Elemente $a_{12}$, $a_{23}$, $b_{21}$ und $b_{32}$ an.
+
+<details>
+  <summary>Lösung b) anzeigen</summary>
+  
+  <br> $a_{12} = 5$, $a_{23} = 7$, $b_{21} = -3$ und $b_{32} = 4$
+  
+</details>
 
 ## **Der KI-Held, der nicht wusste, wie er kämpfen sollte**
 
