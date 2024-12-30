@@ -5,6 +5,7 @@
 - [Einleitung](#einleitung)
 - [Matrizen](#matrizen)
 - [Addition und skalare Multiplikation](#addition-und-skalare-multiplikation)
+- [Multiplikation von Matritzen]
 
 ---
 
@@ -273,6 +274,137 @@ $$
   <br>$k = 3$<br>
   
 </details>
+
+## Multiplikation von Matritzen
+
+### Allgemeine Matrix-Vektor-Multiplikation
+
+> Nehmen wir eine Matrix $A$ der Größe $m \times n$ (also $m$ Zeilen und $n$ Spalten) und einen Vektor $\vec{z}$ der Größe $n \times$ (also $n$ Zeilen und 1 Spalte). Die Multiplikation $A \cdot \vec{z}$ ist nur möglich, wenn die Anzahl der **Spalten von $A$** gleich der Anzahl der **Zeilen von $\vec{z}$** ist.
+> 
+> **Matrix $A$:**
+> 
+> $$
+>      A = \begin{pmatrix}
+>      a_{11} & a_{12} & \dots & a_{1n} \\
+>      a_{21} & a_{22} & \dots & a_{2n} \\
+>      \vdots & \vdots & \ddots & \vdots \\
+>      a_{m1} & a_{m2} & \dots & a_{mn}
+>      \end{pmatrix}
+> $$
+> 
+> **Vektor $\vec{z}$:**
+> 
+> $$
+>      \vec{z} = \begin{pmatrix}
+>      z_1 \\
+>      z_2 \\
+>      \vdots \\
+>      z_n
+>      \end{pmatrix}
+> $$
+
+### Rechenschritte der Matrix-Vektor-Multiplikation
+
+1. **Ergebnis-Vektor:**
+   Das Ergebnis der Multiplikation $A \cdot \vec{z}$ wird ein Vektor $\vec{y}$ der Größe $m \times 1$ sein (also ein Vektor mit $m$ Zeilen). Dieser Vektor hat die Form:
+
+$$
+   \vec{y} = A \cdot \vec{z} = \begin{pmatrix}
+   y_1 \\
+   y_2 \\
+   \vdots \\
+   y_m
+   \end{pmatrix}
+$$
+
+2. **Berechnung der Einträge des Ergebnis-Vektors:**
+   Jeder Eintrag $y_i$ im Ergebnis-Vektor $\vec{y}$ wird berechnet, indem die **$i$-te Zeile der Matrix $A$** mit dem **Vektor $\vec{z}$** multipliziert wird.
+
+   Der $i$-te Eintrag $y_i$ wird folgendermaßen berechnet:
+
+$$
+   y_i = a_{i1} \cdot z_1 + a_{i2} \cdot z_2 + \dots + a_{in} \cdot z_n
+$$
+
+   Das bedeutet, dass Sie die **$i$-te Zeile** der Matrix $A$ mit den **entsprechenden Einträgen** des Vektors $\vec{z}$ multiplizierst und die Ergebnisse addierst.
+
+### Beispiel zur Veranschaulichung
+
+Nehmen wir die Matrix $A$ der Größe $2 \times Z$ und den Vektor $\vec{z}$ der Größe $3 \times 1$:
+
+**Matrix $A$:**
+
+$$
+     A = \begin{pmatrix}
+     a_{11} & a_{12} & a_{13} \\
+     a_{21} & a_{22} & a_{23}
+     \end{pmatrix}
+$$
+
+**Vektor $\vec{z}$:**
+
+$$
+     \vec{z} = \begin{pmatrix}
+     z_1 \\
+     z_2 \\
+     z_3
+     \end{pmatrix}
+$$
+
+Jetzt berechnen wir das Produkt \( A \cdot \vec{z} \):
+
+#### Berechnung des ersten Eintrags $y_1$
+
+Die **erste Zeile** von $A$ ist $(a_{11}, a_{12}, a_{13})$, und der Vektor $\vec{z}$ ist $(z_1, z_2, z_3)$.
+
+$$
+     y_1 = a_{11} \cdot z_1 + a_{12} \cdot z_2 + a_{13} \cdot z_3
+$$
+
+#### Berechnung des zweiten Eintrags $y_2$
+
+Die **zweite Zeile** von $A$ ist $(a_{21}, a_{22}, a_{23})$, und der Vektor $\vec{z}$ bleibt $(z_1, z_2, z_3)$.
+
+$$
+     y_2 = a_{21} \cdot z_1 + a_{22} \cdot z_2 + a_{23} \cdot z_3
+$$
+
+#### Ergebnis-Vektor
+
+Das Ergebnis der Matrix-Vektor-Multiplikation ist der Vektor $\vec{y}$:
+
+$$
+     \vec{y} = A \cdot \vec{z} = \begin{pmatrix}
+     y_1 \\
+     y_2
+     \end{pmatrix}
+     = \begin{pmatrix}
+     a_{11} \cdot z_1 + a_{12} \cdot z_2 + a_{13} \cdot z_3 \\
+     a_{21} \cdot z_1 + a_{22} \cdot z_2 + a_{23} \cdot z_3
+     \end{pmatrix}
+$$
+
+### Allgemeine Formel der Matrix-Vektor-Multiplikation
+
+> Zusammengefasst, wenn Sie eine Matrix $A$ mit einem Vektor $\vec{z}$ multiplizierst, berechnet sich der Ergebnis-Vektor $\vec{y}$ folgendermaßen:
+> 
+> $$
+>      \vec{y} = A \cdot \vec{z}
+> $$
+> 
+> Dabei gilt:
+> 
+> $$
+>      y_i = \sum_{j=1}^{n} a_{ij} \cdot z_j \quad \text{für jedes} \quad i = 1, 2, \dots, m
+> $$
+> 
+> Das bedeutet, dass du für jede Zeile der Matrix \( A \) die entsprechenden Elemente mit den Vektorelementen multiplizierst und die Produkte addierst, um die einzelnen Einträge im Ergebnis-Vektor zu berechnen.
+
+### Wichtige Merkmale
+- **Dimensionen:** Die Anzahl der **Spalten** der Matrix \( A \) muss mit der Anzahl der **Zeilen** des Vektors \( \vec{z} \) übereinstimmen.
+- **Ergebnis:** Das Ergebnis der Multiplikation ist ein Vektor, dessen **Anzahl der Zeilen** der Matrix \( A \) entspricht.
+
+### Aufgaben
 
 ## Der KI-Held, der nicht wusste, wie er kämpfen sollte
 
