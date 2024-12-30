@@ -13,62 +13,72 @@
 1. **Allgemeine Matrix ($m × n$ Matrix)**:<br>
 Eine Allgemeine Matrix besteht aus **Zahlen**, die in **Zeilen** und **Spalten** angeordnet sind. Sie hat $m$ Zeilen und $n$ Spalten. Wenn $m$ und $n$ gleich sind, ist die Matrix quadratisch (vgl. 2. Quadratische Matrix).
 
-     $$
+$$
      B = \begin{pmatrix}
      B_{1,1} & B_{1,2} & \dots  & B_{1,m} \\
      B_{2,1} & B_{2,2} & \dots  & B_{2,m} \\
      \vdots  & \vdots  & \ddots & \vdots \\
      B_{n,1} & B_{n,2} & \dots  & B_{n,m}
      \end{pmatrix}
-     $$
+$$
 
 2. **Quadratische Matrix**:<br>
 Bei der Quadratische Matrix, sind die Anzahl der Zeilen gleich der Anzahl der Spalten (also $m = n$). Zum Beispiel eine $2 × 2$ Matrix oder eine $3 × 3$ Matrix.
+
    - **$2 × 2$ Beispiel**:
-     $$
+
+$$
      C = \begin{pmatrix}
      1 & 2 \\
      3 & 4
      \end{pmatrix}
-     $$
+$$
+
    - **$3 × 3$ Beispiel**:
-     $$
+
+$$
      D = \begin{pmatrix}
      1 & 0 & 2 \\
      3 & 1 & 4 \\
      5 & 6 & 1
      \end{pmatrix}
-     $$
+$$
 
 3. **Hauptdiagonale**:<br>
 In jeder quadratischen Matrix sind die Elemente der Hauptdiagonalen die Zahlen, die von oben links nach unten rechts verlaufen. Zum Beispiel:
    - **$2 × 2$ Matrix (Hauptdiagonale: $1$ und $1$)**:
-     $$
+
+$$
      E = \begin{pmatrix}
      \textbf{1} & 3 \\
      5 & \textbf{1}
      \end{pmatrix}
-     $$
+$$
+
    - **$3 × 3$ Matrix (Hauptdiagonale: $1$, $1$ und $1$)**:
-     $$
+
+$$
      F = \begin{pmatrix}
      \textbf{1} & 3 & 4 \\
      2 & \textbf{1} & 6 \\
      7 & 8 & \textbf{1}
      \end{pmatrix}
-     $$
+$$
 
 4. **Diagonalmatrix**:<br>
 In einer Diagonalmatrix sind alle Elemente außerhalb der Hauptdiagonalen null.
    - **$2 × 2$ Beispiel**:
-     $$
+
+$$
      G = \begin{pmatrix}
      1 & 0 \\
      0 & 1
      \end{pmatrix}
-     $$
+$$
+
    - **$3 × 3$ Beispiel**:
-     $$
+
+$$
      H = \begin{pmatrix}
      1 & 0 & 0 \\
      0 & 1 & 0 \\
@@ -79,20 +89,23 @@ In einer Diagonalmatrix sind alle Elemente außerhalb der Hauptdiagonalen null.
 5. **Einheitsmatrix (Identitätsmatrix)**:<br>
 In der Einheitsmatrix sind alle Elemente auf der Hauptdiagonalen $1$ und alle anderen Elemente $0$.
    - **$2 × 2$ Beispiel**:
-     $$
+
+$$
      I = \begin{pmatrix}
      1 & 0 \\
      0 & 1
      \end{pmatrix}
-     $$
+$$
+
    - **$3 × 3$ Beispiel**:
-     $$
+
+$$
      J = \begin{pmatrix}
      1 & 0 & 0 \\
      0 & 1 & 0 \\
      0 & 0 & 1
      \end{pmatrix}
-     $$
+$$
 
 ### Aufgabe
 
