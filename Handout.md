@@ -9,23 +9,25 @@
 
 ## Matrizen
 
+> Eine Allgemeine Matrix ($m × n$ Matrix) besteht aus **Zahlen**, die in **Zeilen** und **Spalten** angeordnet sind. Sie hat $m$ Zeilen und $n$ Spalten. Wenn $m$ und $n$ gleich sind, ist die Matrix quadratisch (vgl. 2. Quadratische Matrix).<br>
+>
+> $$
+>     B = \begin{pmatrix}
+>     B_{1,1} & B_{1,2} & \dots  & B_{1,m} \\
+>     B_{2,1} & B_{2,2} & \dots  & B_{2,m} \\
+>     \vdots  & \vdots  & \ddots & \vdots \\
+>    B_{n,1} & B_{n,2} & \dots  & B_{n,m}
+>     \end{pmatrix}
+> $$
+>
+> Die Zahlen des Schemas heißen **Elemente der Matrix**.
+> Matritzen werden immer mit Großbuchstaben benannt.
+> Die Elemente der Matrix werden immer mit einem Doppelindex gekennzeichnet, der die Nummer der Zeile und die der Spalte des Elementes angibt.
 
-1. **Allgemeine Matrix ($m × n$ Matrix)**:<br>
-Eine Allgemeine Matrix besteht aus **Zahlen**, die in **Zeilen** und **Spalten** angeordnet sind. Sie hat $m$ Zeilen und $n$ Spalten. Wenn $m$ und $n$ gleich sind, ist die Matrix quadratisch (vgl. 2. Quadratische Matrix).
+### Quadratische Matrix
+Bei der Quadratische Matrix, sind die Anzahl der Zeilen gleich der Anzahl der Spalten (also $m = n$). Zum Beispiel eine $2 × 2$ Matrix oder eine $3 × 3$ Matrix.<br>
 
-$$
-     B = \begin{pmatrix}
-     B_{1,1} & B_{1,2} & \dots  & B_{1,m} \\
-     B_{2,1} & B_{2,2} & \dots  & B_{2,m} \\
-     \vdots  & \vdots  & \ddots & \vdots \\
-     B_{n,1} & B_{n,2} & \dots  & B_{n,m}
-     \end{pmatrix}
-$$
-
-2. **Quadratische Matrix**:<br>
-Bei der Quadratische Matrix, sind die Anzahl der Zeilen gleich der Anzahl der Spalten (also $m = n$). Zum Beispiel eine $2 × 2$ Matrix oder eine $3 × 3$ Matrix.
-
-   - **$2 × 2$ Beispiel**:
+**$2 × 2$ Beispiel**:
 
 $$
      C = \begin{pmatrix}
@@ -34,7 +36,7 @@ $$
      \end{pmatrix}
 $$
 
-   - **$3 × 3$ Beispiel**:
+**$3 × 3$ Beispiel**:
 
 $$
      D = \begin{pmatrix}
@@ -44,9 +46,10 @@ $$
      \end{pmatrix}
 $$
 
-3. **Hauptdiagonale**:<br>
-In jeder quadratischen Matrix sind die Elemente der Hauptdiagonalen die Zahlen, die von oben links nach unten rechts verlaufen. Zum Beispiel:
-   - **$2 × 2$ Matrix (Hauptdiagonale: $1$ und $1$)**:
+### Hauptdiagonale
+In jeder quadratischen Matrix sind die Elemente der Hauptdiagonalen die Zahlen, die von oben links nach unten rechts verlaufen. Zum Beispiel:<br>
+
+**$2 × 2$ Matrix (Hauptdiagonale: $1$ und $1$)**:
 
 $$
      E = \begin{pmatrix}
@@ -55,7 +58,7 @@ $$
      \end{pmatrix}
 $$
 
-   - **$3 × 3$ Matrix (Hauptdiagonale: $1$, $1$ und $1$)**:
+**$3 × 3$ Matrix (Hauptdiagonale: $1$, $1$ und $1$)**:
 
 $$
      F = \begin{pmatrix}
@@ -65,9 +68,10 @@ $$
      \end{pmatrix}
 $$
 
-4. **Diagonalmatrix**:<br>
-In einer Diagonalmatrix sind alle Elemente außerhalb der Hauptdiagonalen null.
-   - **$2 × 2$ Beispiel**:
+### Diagonalmatrix
+In einer Diagonalmatrix sind alle Elemente außerhalb der Hauptdiagonalen null.<br>
+
+**$2 × 2$ Beispiel**:
 
 $$
      G = \begin{pmatrix}
@@ -76,7 +80,7 @@ $$
      \end{pmatrix}
 $$
 
-   - **$3 × 3$ Beispiel**:
+**$3 × 3$ Beispiel**:
 
 $$
      H = \begin{pmatrix}
@@ -84,11 +88,12 @@ $$
      0 & 1 & 0 \\
      0 & 0 & 1
      \end{pmatrix}
-     $$
+$$
 
-5. **Einheitsmatrix (Identitätsmatrix)**:<br>
-In der Einheitsmatrix sind alle Elemente auf der Hauptdiagonalen $1$ und alle anderen Elemente $0$.
-   - **$2 × 2$ Beispiel**:
+### Einheitsmatrix (Identitätsmatrix)
+In der Einheitsmatrix sind alle Elemente auf der Hauptdiagonalen $1$ und alle anderen Elemente $0$.<br>
+
+**$2 × 2$ Beispiel**:
 
 $$
      I = \begin{pmatrix}
@@ -97,7 +102,7 @@ $$
      \end{pmatrix}
 $$
 
-   - **$3 × 3$ Beispiel**:
+**$3 × 3$ Beispiel**:
 
 $$
      J = \begin{pmatrix}
@@ -109,18 +114,35 @@ $$
 
 ### Aufgabe
 
-Gegeben sind die Matratzen $ A = \begin{pmatrix} -2 & 5 & 1 \\ 1 & -1 & 7 \end{pmatrix}$ und $ B = \begin{pmatrix} 8 & 1 \\ -3 & -2 \\ 1 & 4 \end{pmatrix}$
+Gegeben sind die Matratzen 
+
+$$
+     A = \begin{pmatrix} 
+     -2 & 5 & 1 \\ 
+     1 & -1 & 7 
+     \end{pmatrix}
+$$ 
+
+und 
+
+$$
+     B = \begin{pmatrix} 
+     8 & 1 \\ 
+     -3 & -2 \\ 
+     1 & 4 
+     \end{pmatrix}
+$$
 
 a) Bestimmen Sie den Typ von A und B.
 
 <details>
   <summary>Lösung a) anzeigen</summary>
   
-  A ist eine $2 × 3$ Matrix, B eine $3 × 2$ Matrix.
+  <br>A ist eine $2 × 3$ Matrix, B eine $3 × 2$ Matrix.
   
 </details>
 
-b) Geben Sie die Elemente $
+b) Geben Sie die Elemente $a_{12}$, a_{23}, b_{21} und b_{32} an.
 
 ## **Der KI-Held, der nicht wusste, wie er kämpfen sollte**
 
@@ -173,8 +195,8 @@ $$
     \end{bmatrix}
     =
     \begin{bmatrix}
-    8*1.5 + 5*(-0.2) + 3*1.0 & 8*(-0.5) + 5*1.2 + 3*(-1.0) & 8*0.8 + 5*0.5 + 3*1.0 \\
-    10*1.5 + 4*(-0.2) + 2*1.0 & 10*(-0.5) + 4*1.2 + 2*(-1.0) & 10*0.8 + 4*0.5 + 2*1.0 \\
+    8 \cdot 1.5 + 5 \cdot (-0.2) + 3 \cdot 1.0 & 8 \cdot (-0.5) + 5 \cdot 1.2 + 3 \cdot (-1.0) & 8 \cdot 0.8 + 5 \cdot 0.5 + 3 \cdot 1.0 \\
+    10 \cdot 1.5 + 4 \cdot (-0.2) + 2 \cdot 1.0 & 10 \cdot (-0.5) + 4 \cdot 1.2 + 2 \cdot (-1.0) & 10 \cdot 0.8 + 4 \cdot 0.5 + 2 \cdot 1.0 \\
     \end{bmatrix}
 $$
 
