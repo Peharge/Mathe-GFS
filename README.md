@@ -29,6 +29,8 @@
 
 Alles zur Mathe GFS
 
+Bitte gehe zu [Handout](Handout.md)
+
 ## News
 
 - **[2024.10.31]** Start ;-)
