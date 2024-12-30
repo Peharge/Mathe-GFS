@@ -138,6 +138,10 @@ $$
 
 a) Bestimmen Sie den Typ von A und B.
 
+b) Geben Sie die Elemente $a_{12}$, $a_{23}$, $b_{21}$ und $b_{32}$ an.
+
+c) Welche Elemente von A und welche von B haben den Wert 1?
+
 <details>
   <summary>Lösung a) anzeigen</summary>
   
@@ -145,16 +149,12 @@ a) Bestimmen Sie den Typ von A und B.
   
 </details>
 
-b) Geben Sie die Elemente $a_{12}$, $a_{23}$, $b_{21}$ und $b_{32}$ an.
-
 <details>
   <summary>Lösung b) anzeigen</summary>
   
   <br> $a_{12} = 5$, $a_{23} = 7$, $b_{21} = -3$ und $b_{32} = 4$
   
 </details>
-
-c) Welche Elemente von A und welche von B haben den Wert 1?
 
 <details>
   <summary>Lösung c) anzeigen</summary>
@@ -164,6 +164,71 @@ c) Welche Elemente von A und welche von B haben den Wert 1?
 </details>
 
 ## Addition und skalare Multiplikation
+
+> Die Addition von Matrizen funktioniert, wenn sie gleich groß sind (gleich viele Zeilen und Spalten). Man addiert die Zahlen **an der gleichen Stelle**. 
+
+**Beispiel**: Wir haben zwei Matrizen:
+
+$$
+     A = \begin{pmatrix}
+     1 & 2 \\
+     3 & 4
+     \end{pmatrix}, \quad
+     B = \begin{pmatrix}
+     5 & 6 \\
+     7 & 8
+     \end{pmatrix}
+$$
+
+Jetzt addieren wir sie, indem wir die Zahlen an den gleichen Positionen zusammenzählen:
+
+$$
+     A + B = \begin{pmatrix}
+     1+5 & 2+6 \\
+     3+7 & 4+8
+     \end{pmatrix}
+     = \begin{pmatrix}
+     6 & 8 \\
+     10 & 12
+     \end{pmatrix}
+$$
+
+> Kurtzgeasgt: Addiere einfach die Zahlen an der gleichen Stelle!
+
+### 2. Skalare Multiplikation
+> Ein **Skalar** ist nur eine einzelne Zahl, zum Beispiel $2$ oder $5$. Wenn wir eine Matrix mit einem Skalar multiplizieren, multiplizieren wir **jede Zahl in der Matrix** mit dieser Zahl.
+
+**Beispiel**: Nimm die Matrix:
+
+$$
+     C = \begin{pmatrix}
+     1 & 2 \\
+     3 & 4
+     \end{pmatrix}
+$$
+
+Wenn wir diese Matrix mit $3$ multiplizieren, sieht das so aus:
+
+$$
+     3 \cdot C = 3 \cdot \begin{pmatrix}
+     1 & 2 \\
+     3 & 4
+     \end{pmatrix}
+     = \begin{pmatrix}
+     3 \cdot 1 & 3 \cdot 2 \\
+     3 \cdot 3 & 3 \cdot 4
+     \end{pmatrix}
+     = \begin{pmatrix}
+     3 & 6 \\
+     9 & 12
+     \end{pmatrix}
+$$
+
+### **Warum ist das nützlich?**
+- Matrizen werden in vielen Bereichen verwendet, z. B. um Daten zu speichern (wie Tabellen oder Bilder).
+- Mit Addition und skalarer Multiplikation können wir Matrizen einfach verändern, zum Beispiel vergrößern oder Werte zusammenfassen.
+
+
 
 ## Der KI-Held, der nicht wusste, wie er kämpfen sollte
 
