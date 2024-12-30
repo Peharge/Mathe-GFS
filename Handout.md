@@ -151,6 +151,15 @@ b) Geben Sie die Elemente $a_{12}$, $a_{23}$, $b_{21}$ und $b_{32}$ an.
   
 </details>
 
+c) Welche Elemente von A und welche von B haben den Wert 1?
+
+<details>
+  <summary>Lösung c) anzeigen</summary>
+  
+  <br> $a_{13}$, $a_{21}$, $b_{12}$ und $b_{31}$ an.
+  
+</details>
+
 ## **Der KI-Held, der nicht wusste, wie er kämpfen sollte**
 
 Stellen wir uns vor, in einem Spiel müssen wir die KI eines Helden trainieren, der gegen Monster kämpft. Der Held hat drei Attribute:
