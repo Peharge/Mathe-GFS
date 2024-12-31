@@ -406,6 +406,8 @@ $$
 
 ### Aufgaben
 
+
+
 ## Der KI-Held, der nicht wusste, wie er kämpfen sollte
 
 Stellen wir uns vor, in einem Spiel müssen wir die KI eines Helden trainieren, der gegen Monster kämpft. Der Held hat drei Attribute:
