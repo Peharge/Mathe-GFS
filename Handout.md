@@ -351,7 +351,7 @@ $$
      \end{pmatrix}
 $$
 
-Jetzt berechnen wir das Produkt \( A \cdot \vec{z} \):
+Jetzt berechnen wir das Produkt $A \cdot \vec{z}$:
 
 #### Berechnung des ersten Eintrags $y_1$
 
