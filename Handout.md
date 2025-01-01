@@ -398,11 +398,11 @@ $$
 >      y_i = \sum_{j=1}^{n} a_{ij} \cdot z_j \quad \text{für jedes} \quad i = 1, 2, \dots, m
 > $$
 > 
-> Das bedeutet, dass du für jede Zeile der Matrix \( A \) die entsprechenden Elemente mit den Vektorelementen multiplizierst und die Produkte addierst, um die einzelnen Einträge im Ergebnis-Vektor zu berechnen.
+> Das bedeutet, dass du für jede Zeile der Matrix $A$ die entsprechenden Elemente mit den Vektorelementen multiplizierst und die Produkte addierst, um die einzelnen Einträge im Ergebnis-Vektor zu berechnen.
 
 ### Wichtige Merkmale
-- **Dimensionen:** Die Anzahl der **Spalten** der Matrix \( A \) muss mit der Anzahl der **Zeilen** des Vektors \( \vec{z} \) übereinstimmen.
-- **Ergebnis:** Das Ergebnis der Multiplikation ist ein Vektor, dessen **Anzahl der Zeilen** der Matrix \( A \) entspricht.
+- **Dimensionen:** Die Anzahl der **Spalten** der Matrix $A$ muss mit der Anzahl der **Zeilen** des Vektors $\vec{z}$ übereinstimmen.
+- **Ergebnis:** Das Ergebnis der Multiplikation ist ein Vektor, dessen **Anzahl der Zeilen** der Matrix $A$ entspricht.
 
 ### Aufgaben
 
