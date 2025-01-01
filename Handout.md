@@ -156,7 +156,7 @@ c) Welche Elemente von A und welche von B haben den Wert 1?<br>
 <details>
   <summary>Lösung c) anzeigen</summary>
   
-  <br> $a_{13}$, $a_{21}$, $b_{12}$ und $b_{31}$ an.
+  <br> $a_{13}$, $a_{21}$, $b_{12}$ und $b_{31}$
   
 </details>
 
